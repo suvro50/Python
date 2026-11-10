@@ -1,6 +1,11 @@
 # Dictionary {key:value}
 # it store the value
 # Here Key's can't be dublicate , but value can be dublicate
+# Dictionary-> Immutable(string,number,typle)
+#Key can be any type 
+
+# Here all change happend using -> key , we can not use index to change or update values
+
 
 
 mark={"Math":99,"Physics":98,"Chemistry":97}

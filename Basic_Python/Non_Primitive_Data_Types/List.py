@@ -1,9 +1,9 @@
-#List
+#List -> Mutable
 # In list different data type also allow
 mark=[1,2,3,"Suvro",5,6]
 print(mark)
 
-# Add value at he end
+# Add value at he end use->append
 mark.append(40)
 print(mark)
 
@@ -12,6 +12,9 @@ print(mark)
 mark.insert(0,5)
 print(mark)
 
+# update list use -> mark[0]=5
+# Delete value index whise-> mark.pop(2)
+# Delete data value whise-> mark.remove(6)
 print(type(mark))
 print(mark)
 
@@ -42,3 +45,25 @@ print(500 in mark)
 # Clear full list
 mark.clear()
 print(mark)
+
+# one list can store multiple list
+print("Multiple list:")
+
+contain=[1,2,[1,2,3],['a','s','s'],[2.3,5.6]]
+print(contain)
+
+print(contain[2][0]) # print: 1
+print(contain[3][1])  # print: s
+
+# slicing
+print("slicing:")
+arr=[1,2,3,4,5]
+temp=arr[2:]
+print(arr[2:])
+
+# print all pair number from a list
+ls=[1,2,3,4,5]
+
+for i in range(len(ls)):
+    for j in range(i+1,len(ls)):
+        print(ls[i],ls[j])
