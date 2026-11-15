@@ -1,5 +1,5 @@
-# All classes have a function called __init__(),
-# Which is always executed when the class in being initiated
+# All classes have a function called :Constructor: __init__(),
+#__init__() is called automatically when an object is initialized.
 
 class person:
     name="Suvrojit"
@@ -11,14 +11,16 @@ class person:
         print(type(self))
         print("Hello bro , how are you")
 
-a=person()
+a=person() # call class
+
+a2=person()
 
 
 
 # send values through object 
 class student:
-    def __init__(self,fullname,age):
-        self.name=fullname
+    def __init__(self,name,age):
+        self.name=name
         self.age=age
 
 a=student("Hello Suvrojit",21)
