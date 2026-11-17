@@ -16,7 +16,6 @@ class student:
 
 
 s=student()
-
 s.display()
 s.change_name("Dip")
 s.display()
