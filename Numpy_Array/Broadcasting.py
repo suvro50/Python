@@ -6,8 +6,15 @@
 import numpy as np
 
 # make 2->  2D array
-arr1=np.array([[1,2,3,4]]) # shape: (1,4)
-arr2=np.array([[1],[2],[3],[4]])  # shape:(4,1)
+arr1=np.array([
+    [1,2,3,4]
+]) # shape: (1,4)
+arr2=np.array([
+    [1],
+    [2],
+    [3],
+    [4]
+])  # shape:(4,1)
 
 print(arr1.shape)
 print(arr2.shape)
@@ -27,8 +34,13 @@ print(arr4.shape)
 #ERROR
 #print(arr3*arr4)
 
-arr5=np.array([[1,2],[2,3]]) # shapes: (2,2)
-arr6=np.array([[1,2]]) # shapes:(1,2)
+arr5=np.array([
+    [1,2],
+    [2,3]
+]) # shapes: (2,2)
+arr6=np.array([
+    [1,2]
+]) # shapes:(1,2)
 print(arr5.shape)
 print(arr6.shape)
 # shape metch with (2,2) and (1,2)
