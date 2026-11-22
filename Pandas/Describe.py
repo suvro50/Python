@@ -11,11 +11,14 @@ data={
     "Performance Score":[92,80,81,70,73,75,78,83]
 }
 
+
 df=pd.DataFrame(data)
 print(df)
 
 print("Describe Statistic: ")
-print(df.describe())   # if all column not show than use: df.describe().to_string()
+print(df.describe())   #If all column not show than use: df.describe().to_string()
+
+
 
 # V.V.I: 
 # count: Number of non-empty values.
